@@ -13,4 +13,5 @@ Key features:
 - React
 - React Router 
 - CSS/Styled Components
+- ![Image](https://github.com/user-attachments/assets/97f11059-0108-4e4e-8f1c-05a9690323c2)
 
