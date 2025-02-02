@@ -1,0 +1,175 @@
+
+.app-container {
+    font-family: Arial, sans-serif;
+    margin: 18px auto;
+    padding: 60px;
+    max-width:1200px;
+    background-color: #1e1e1e; 
+    color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title of the App */
+  .app-title {
+    text-align: center;
+    font-size: 36px;
+    color: #f39c12; /* Warm gold color for title */
+    margin-bottom: 20px;
+  }
+  
+  /* Loading text */
+  .loading-text {
+    font-size: 18px;
+    color: #3498db;
+    text-align: center;
+  }
+  
+  /* Error message text */
+  .error-text {
+    color: #e74c3c; /* Red color for errors */
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Container for current question */
+  .question-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2c3e50; /* Dark blue background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  /* Question heading */
+  .question-heading {
+    font-size: 24px;
+    color: #ecf0f1; /* Light color for headings */
+    margin-bottom: 10px;
+  }
+  
+  /* Question text */
+  .question-text {
+    font-size: 18px;
+    color: #bdc3c7; /* Light grey text for question */
+    margin-bottom: 20px;
+  }
+  
+  /* Options list styling */
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .option-item {
+    font-size: 16px;
+    color: #f39c12; /* Green color for options */
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .option-item:hover {
+    background-color: #34495e; /* Darker hover effect */
+  }
+  
+  .option-item.selected {
+    background-color: #0c0d0c; /* Selected option with brighter green */
+    color: white;
+  }
+  
+  /* Navigation buttons */
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(230, 215, 215);
+    background-color: #3498db; /* Blue color for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #f39c12; /* Darker blue on hover */
+  }
+  
+  .nav-button:disabled {
+    background-color: #2480bd;
+    cursor: not-allowed;
+  }
+  
+  /* Message when no questions are available */
+  .no-questions {
+    text-align: center;
+    font-size: 18px;
+    color: #95a5a6;
+  }
+  
+  /* Submit and score section */
+  .submit-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .submit-button {
+    padding: 12px 20px;
+    font-size: 18px;
+    color: rgb(14, 12, 12);
+    background-color: #3498db; /* Blue color for the submit button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #f39c12;
+  }
+  
+  .score {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2ecc71; /* Green color for the score */
+  }
+  
+  /* Quiz.css */
+  
+  /* Progress Bar */
+  .progress-bar-container {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .progress-bar-background {
+    background-color: #34495e; /* Dark background for the progress bar */
+    border-radius: 10px;
+    width: 80%;  /* Adjust width to fit the container */
+    margin: 0 auto;
+    height: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-bar {
+    background-color: #4caf50; /* Green color for the progress */
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .progress-text {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #46c55b; /* Light color for the progress text */
+  }

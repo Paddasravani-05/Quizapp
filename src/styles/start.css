@@ -1,0 +1,117 @@
+/* Start.css */
+
+/* Make the whole page black */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Full page black background */
+    color: #ecf0f1; /* Light text color for readability */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+  
+
+  .start-container {
+    text-align: center;
+    padding: 30px;
+    margin-top: 160px;
+    background-color: #1e1e1e; /* Dark background for container */
+    color: #ecf0f1; /* Light text color */
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px; /* Set a max width for the container */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Title of the Start Page */
+  .start-container h1 {
+    font-size: 2.5rem;
+    color:#f39c12; 
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Input field for the name */
+  .start-container input {
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #34495e; /* Dark background for input */
+    color: #ecf0f1; /* Light text color */
+    transition: border 0.3s ease;
+  }
+  
+  .start-container input:focus {
+    border-color: #3498db; /* Blue border on focus */
+    outline: none;
+  }
+  
+  /* Start button */
+  .start-container button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #3498db; /* Blue color for button */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+  }
+  
+  .start-container button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .start-container button:active {
+    background-color: #070907; /* Even darker blue on active */
+    transform: translateY(1px); /* Button press effect */
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #f39c12;
+    padding: 25px;
+    border-radius: 8px;
+    z-index: 9999;
+    font-size: 18px;
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+    animation: fadeOut 2s ease-in-out forwards;
+  }
+  
+  /* Animation for modal fade-out */
+  @keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+  
+  /* Modal Close Button */
+  .modal .close-button {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .modal .close-button:hover {
+    color: #e74c3c; /* Red color for hover */
+  }
